@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="group(event)">
+        <label for="groupname">Group Name:</label>
+        <input type="text" name="groupname" id="groupname">
+        <button>create group</button>
+    </form>
+
+
+    <div id="groups">
+        <h1>All Groups</h1>
+    </div>
+    <div id="users">
+        <h1>Users To Add</h1>
+    </div>
+    <script src="./group.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js"></script>
+</body>
+
+</html>
